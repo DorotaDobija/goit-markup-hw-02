@@ -1,0 +1,47 @@
+:root {
+    --main-color: #434455;
+    --heading-color: #2e2f42;
+    --blue-color: #4d5ae5;
+    --footer-white-color: #f4f4fd;
+    --main-font-family: 'Roboto', sans-serif;
+    --second-font-family: "Raleway", sans-serif;
+}
+body {
+    font-family: var(--main-font-family);
+    color: var(--main-color);
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+}
+.logo {
+    font-family: var(--second-font-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16667;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--heading-color);
+}
+.logo-element {
+    color: var(--blue-color);
+}
+.logo-footer {
+color: var(--footer-white-color);
+}
+.nav-heading {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--heading-color);
+}
+.contact-link {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-color);
+    font-style: normal;
+}
