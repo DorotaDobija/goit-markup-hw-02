@@ -76,3 +76,26 @@ ul {
     letter-spacing: 0.04em;
     color: var(--white-color);
 }
+.hidden-header {
+    display: none;
+}
+.section-heading {
+    font-size: 36px;
+    line-height: 1.11111;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    color: var(--heading-color);
+}
+.second-heading {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--heading-color);
+}
+.section-text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
