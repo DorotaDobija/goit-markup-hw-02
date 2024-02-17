@@ -6,6 +6,7 @@
     --main-font-family: 'Roboto', sans-serif;
     --second-font-family: "Raleway", sans-serif;
     --background-dark: #2e2f42;
+    --white-color: #fff;
 }
 body {
     font-family: var(--main-font-family);
@@ -54,4 +55,24 @@ ul {
 }
 .footer {
     background-color: var(--background-dark);
+}
+.hero-section {
+    background-color: var(--background-dark);
+}
+.hero-title {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07143;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--white-color);
+}
+.btn {
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+    background: var(--blue-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
 }
