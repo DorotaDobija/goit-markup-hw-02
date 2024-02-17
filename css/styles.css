@@ -11,6 +11,7 @@
 body {
     font-family: var(--main-font-family);
     color: var(--main-color);
+    background-color: var(--white-color);
 }
 a {
     text-decoration: none;
@@ -22,14 +23,18 @@ ul {
     font-family: var(--second-font-family);
     font-weight: 700;
     font-size: 18px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--heading-color);
-}
-.logo-element {
     color: var(--blue-color);
 }
+.logo-footer {
+    color: var(--footer-white-color)
+}
+.logo-nav {
+    color: var(--heading-color);
+}
+
 .nav-heading {
     font-weight: 500;
     font-size: 16px;
@@ -44,9 +49,7 @@ ul {
     color: var(--main-color);
     font-style: normal;
 }
-.logo-footer {
-    color: var(--footer-white-color);
-}
+
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
@@ -68,7 +71,6 @@ ul {
     color: var(--white-color);
 }
 .btn {
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background: var(--blue-color);
     font-weight: 500;
     font-size: 16px;
@@ -81,7 +83,7 @@ ul {
 }
 .section-heading {
     font-size: 36px;
-    line-height: 1.11111;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     text-align: center;
