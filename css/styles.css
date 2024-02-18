@@ -7,6 +7,7 @@
     --second-font-family: "Raleway", sans-serif;
     --background-dark: #2e2f42;
     --white-color: #fff;
+    --focus-color: #404bbf;
 }
 body {
     font-family: var(--main-font-family);
@@ -42,6 +43,10 @@ ul {
     letter-spacing: 0.02em;
     color: var(--heading-color);
 }
+.nav-heading:hover,
+.nav-heading:focus {
+    color: var(--focus-color);
+}
 .contact-link {
     font-size: 16px;
     line-height: 1.5;
@@ -49,7 +54,9 @@ ul {
     color: var(--main-color);
     font-style: normal;
 }
-
+.contact-link:focus, .contact-link:hover {
+    color: var(--focus-color)
+}
 .footer-text {
     font-size: 16px;
     line-height: 1.5;
@@ -65,7 +72,7 @@ ul {
 .hero-title {
     font-weight: 700;
     font-size: 56px;
-    line-height: 1.07143;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--white-color);
@@ -77,9 +84,10 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--white-color);
+    cursor: pointer;
 }
-.hidden-header {
-    display: none;
+.btn:focus, .btn:hover {
+    background-color: var(--focus-color);
 }
 .section-heading {
     font-size: 36px;
@@ -104,3 +112,4 @@ ul {
 .team-section {
     background-color: var(--footer-white-color);
 }
+
